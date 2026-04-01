@@ -46,8 +46,9 @@ h1 {
 /* Image */
 .card img {
     width: 100%;
+    height: 180px;        /* same height for all images */
+    object-fit: cover;    /* crop nicely without stretching */
     border-radius: 10px;
-    height:200px;
 }
 
 /* Text */
